@@ -7,303 +7,233 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Sprints</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Back-logs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Plans</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<hr class="my-3">
-<div class="container-fluid">
-    <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100 shadow p-3 mb-5 bg-white rounded">
-                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline text-center">Sidebar 1</span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            icon <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
-                    </li>
-                    <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
-                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
-                            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
-                    </li>
-                </ul>
-                <div class="dropdown m-0 p-0">
-                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                        <span class="d-none d-sm-inline mx-1 text-success">user</span>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                        <li><a class="dropdown-item" href="#">New project...</a></li>
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                    </ul>
-                </div>
-                <hr>
-            </div>
-        </div>
-        <div class="col py-3">
+    <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white rounded">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                 Left Sidebar
             </button>
-        </div>
-    </div>
-</div>
-
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Left Sidebar</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <ul>
-            <li>
-                <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Sprints</span></a>
-            </li>
-            <li>
-                <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Plans</span></a> 
-            </li>
-            <li>
-                <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Projects</span></a> 
-            </li>
-            <li>
-                <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Users</span></a> 
-            </li>
-        </ul>
-        <div class="dropdown mt-3">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-            Dropdown button
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-        </div>
-    </div>
-</div>
-
-<hr>
-<nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white rounded">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Brand</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sprints</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Back-log</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Users</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                    <span class="d-none d-sm-inline mx-1 text-success">user</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">My Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="profile-photo-icon" href="#">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                        </a>
+                    </li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+                <!--/ User -->
+                </ul>
+            </div>
         </div>
-        <div class="dropdown">
-            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                <span class="d-none d-sm-inline mx-1 text-success">user</span>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                <li><a class="dropdown-item" href="#">New project...</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
-            </ul>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Left Sidebar</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Sprints</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Plans</span></a> 
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Projects</span></a> 
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Users</span></a> 
+                    </li>
+                </ul>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</nav>
-<!-- Main Content -->
-<div class="container mt-5">
-    <h1 class="text-center">HTML Elements Template</h1>
+    </nav>
+    <main class="bg-white color-scheme-dark">
+        <div class="container">
+            <p class="bg-white color-scheme-dark">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                elit. Nostrum asperiores repellendus nihil voluptatum natus iste, voluptates soluta odio sit quas perferendis minima ratione 
+                minus quae optio, mollitia eos enim dolores? <a href="#" >hello</a>
+            </p>
+            <div class="bg-dark-blue color-scheme-light">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                elit. Nostrum asperiores repellendus nihil voluptatum natus iste, voluptates soluta odio sit quas perferendis minima ratione 
+                minus quae optio, mollitia eos enim dolores? <a href="#" >hello</a>
+            </div>
 
-    <div class="form-section">
-        <h2 class="">Text Inputs</h2>
-        <div class="form-group">
-            <label for="text">Text Input:</label>
-            <input type="text" id="text" name="text" placeholder="please enter your name">
-        </div>
-        <div class="form-group">
-            <label for="password">Password Input:</label>
-            <input type="password" id="password" name="password">
-        </div>
-        <div class="form-group">
-            <label for="email">Email Input:</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div class="form-group">
-            <label for="url">URL Input:</label>
-            <input type="url" id="url" name="url">
-        </div>
-        <div class="form-group">
-            <label for="tel">Telephone Input:</label>
-            <input type="tel" id="tel" name="tel">
-        </div>
-        <div class="form-group">
-            <label for="number">Number Input:</label>
-            <input type="number" id="number" name="number">
-        </div>
-        <div class="form-group">
-            <label for="date">Date Input:</label>
-            <input type="date" id="date" name="date">
-        </div>
-    </div>
+            <div class="bg-light-blue color-scheme-light row">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Nostrum asperiores repellendus nihil voluptatum <a href="#" >link</a> natus iste, voluptates soluta odio sit quas perferendis minima ratione 
+                    
+                    minus quae optio, mollitia eos enim dolores? <a href="#" >hello</a>
+                </p>
+                <div class="row">
+                    <p class="bg-light-gray color-scheme-light row">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Nostrum asperiores repellendus nihil voluptatum natus iste, voluptates soluta odio sit quas perferendis minima ratione 
+                    minus quae optio, mollitia eos enim dolores? <a href="#" >hello</a></p>
+                    <p class="bg-darker-blue color-scheme-light col">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Nostrum asperiores repellendus nihil voluptatum natus iste, voluptates soluta odio sit quas perferendis minima ratione 
+                    minus quae optio, mollitia eos enim dolores? <a href="#" >hello</a></p>
+                    <p class="bg-off-white color-scheme-dark col">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Nostrum asperiores repellendus nihil voluptatum natus iste, voluptates soluta odio sit quas perferendis minima ratione 
+                    minus quae optio, mollitia eos enim dolores? <a href="#" >hello</a></p>
+                    <img src="/resources/avatar.jpg" class="col" style="width: 30%"/>
+                </div>
+            </div>
 
-    <div class="form-section">
-        <h2>Selection Inputs</h2>
-        <div class="form-group">
-            <label for="select">Select Box:</label>
-            <select id="select" name="select">
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>Radio Buttons:</label>
-            <label><input type="radio" name="radio" value="radio1">Radio 1</label>
-            <label><input type="radio" name="radio" value="radio2">Radio 2</label>
-            <label><input type="radio" name="radio" value="radio3">Radio 3</label>
-        </div>
-        <div class="form-group">
-            <label>Checkboxes:</label>
-            <label><input type="checkbox" name="checkbox" value="checkbox1">Checkbox 1</label>
-            <label><input type="checkbox" name="checkbox" value="checkbox2">Checkbox 2</label>
-            <label><input type="checkbox" name="checkbox" value="checkbox3">Checkbox 3</label>
-        </div>
-    </div>
+            <h1>Input types </h1>
+            <p>(for controlling the sizes add classes => sm, md, lg, xlg)</p>
+            <div class="row">
+                <div class="col"> 
+                    <label for="inp-field-1">Email Input</label>
+                    <input type="email" id="inp-field-1" class="md" name="inp-field-1" placeholder="Enter your Email">
+                    <label for="inp-field-2">Text Input</label>
+                    <input type="text" id="inp-field-2" class="md" name="inp-field-2" placeholder="Placeholder for text input ">
+                    <label for="inp-search">Search Input</label>
+                    <input type="search" id="inp-search" class="md" name="inp-search" placeholder="Please Enter search key">
+                    <label for="inp-time">Time Input</label>
+                    <input type="time" id="inp-time" class="md" name="inp-time" placeholder="Please Enter the time">
+                    <label for="inp-color">Color Input</label>
+                    <input type="color" id="inp-color" class="md" name="inp-color">
+                    <label for="inp-check">
+                    <input type="checkbox" id="inp-check" class="md" name="inp-check" value="Checkbox 1"> CheckBox 1
+                    </label>
+                    <label for="inp-check2">
+                    <input type="checkbox" id="inp-check2" class="md" name="inp-check2" value="Checkbox 2"> CheckBox 2
+                    </label>
+                    <label for="inp-check3">
+                    <input type="checkbox" id="inp-check3" class="md" name="inp-check3" value="Checkbox 3"> CheckBox 3
+                    </label>
+                    <label for="inp-radio">
+                    <input type="radio" id="inp-radio" class="md" name="inp-radio" value="radio 1"> Radio Input
+                    </label>
+                    <label for="inp-radio2">
+                    <input type="radio" id="inp-radio2" class="md" name="inp-radio2" value="radio 2"> Radio Input 2
+                    </label>
+                    <label for="inp-radio3">
+                    <input type="radio" id="inp-radio3" class="md" name="inp-radio3" value="radio 3"> Radio Input 3
+                    </label>
+                    <label for="inp-tel">Telephone Input</label>
+                    <input type="tel" id="inp-tel" class="md" name="inp-tel" placeholder="Enter your telephone number">
+                    <label for="inp-week">Week Input</label>
+                    <input type="week" id="inp-week" class="md" name="inp-week">
+                    <label for="inp-password">Password Input</label>
+                    <input type="password" id="inp-password" class="md" name="inp-password" placeholder="Please Enter your password">
+                    <label for="inp-url">Url Input</label>
+                    <input type="url" id="inp-url" class="md" name="inp-url" placeholder="Please Enter your github url ">
+                    <label for="inp-file">File Input</label>
+                    <input type="file" id="inp-file" class="md" name="inp-file">
+                
+                    <div class="row md">
+                        <label>
+                            Selectbox
+                            <select id="selectbox" name="selectbox">
+                                <option value> This is select box</option>
+                                <option value> This is select box option</option>
+                                <option value> This is select box option</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="inp-date">Date Input</label>
+                    <input type="date" id="inp-date" class="md" name="inp-date">
+                    <label for="inp-date-time">Date & Time Input</label>
+                    <input type="datetime-local" id="inp-date-time" class="md" name="inp-date-time">
+                    <label for="inp-month">Month Input</label>
+                    <input type="month" id="inp-month" class="md" name="inp-month">
+                    <label for="inp-number">Number Input</label>
+                    <input type="number" id="inp-number" class="md" name="inp-number" placeholder="Please enter a number ">
+                    <label for="inp-range">Range Input</label>
+                    <input type="range" id="inp-range" class="md" name="inp-range">
+                    
+                    <label class="xlg">
+                        Textarea
+                        <textarea id="textarea" name="textarea" placeholder="This is text area" spellcheck="false"></textarea>
+                    </label>
+                    
+                    <label class="lg">
+                        Textarea
+                        <textarea id="textarea" name="textarea" placeholder="This is text area" spellcheck="false"></textarea>
+                    </label>
+                    
+                    <label class="md">
+                        Textarea
+                        <textarea id="textarea" name="textarea" placeholder="This is text area" spellcheck="false"></textarea>
+                    </label>
+                    
+                    <label class="sm">
+                        Textarea
+                        <textarea id="textarea" name="textarea" placeholder="This is text area" spellcheck="false"></textarea>
+                    </label>
+                </div>
+                <div class="col bg-light-blue color-scheme-light"> 
+                    
+                </div>
+            </div>
+            <div>
+                    <h1>Buttons</h1>
 
-    <div class="form-section">
-        <h2>Other Inputs</h2>
-        <div class="form-group">
-            <label for="file">File Input:</label>
-            <input type="file" id="file" name="file">
+                    <button class="button submit-button">Submit</button>
+                    <button class="button save-button">Save</button>
+                    <button class="button cancel-button">Cancel</button>
+                    <button class="button delete-button">Delete</button>
+            </div>
+            
         </div>
-        <div class="form-group">
-            <label for="color">Color Input:</label>
-            <input type="color" id="color" name="color">
-        </div>
-        <div class="form-group">
-            <label for="range">Range Input:</label>
-            <input type="range" id="range" name="range" min="0" max="100">
-        </div>
-    </div>
 
-    <div class="form-section">
-        <h2>Text Areas</h2>
-        <div class="form-group">
-            <label for="textarea">Text Area:</label>
-            <textarea id="textarea" name="textarea" rows="4"></textarea>
-        </div>
-    </div>
-
-    <div class="form-section">
-        <h2>Buttons</h2>
-        <div class="form-group">
-            <button type="button">Button</button>
-        </div>
-        <div class="form-group">
-            <button type="submit">Submit Button</button>
-        </div>
-        <div class="form-group">
-            <button type="reset">Reset Button</button>
-        </div>
-    </div>
-</div>
-
+    </main>
 <!-- Footer -->
-<footer class="bg-light text-center text-lg-start mt-5">
+<footer class="bg-light text-center text-lg-start mt-5 shadow">
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -315,7 +245,7 @@
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Links</h5>
                 <ul class="list-unstyled mb-0">
-                    <li>
+                    <li class="list-unstyled">
                         <a href="#!" class="text-dark">Link 1</a>
                     </li>
                     <li>
@@ -348,12 +278,11 @@
             </div>
         </div>
     </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center p-3 bg-dark-blue color-scheme-light" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2024 Quve Seventeen:
         <a class="text-dark" href="https://quve.com/">quve.com</a>
     </div>
 </footer>
-
 <!-- Bootstrap JS and dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
