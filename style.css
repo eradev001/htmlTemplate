@@ -540,3 +540,30 @@ button {
 ul, li {
     text-decoration: none;
 }
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card.small {
+    width: 150px;
+    height: 200px;
+}
+
+.card.medium {
+    width: 200px;
+    height: 250px;
+}
+
+.card.large {
+    width: 250px;
+    height: 300px;
+}
