@@ -123,11 +123,7 @@
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="ui-footer.html" class="menu-link">
-                    <div data-i18n="Footer">Footer</div>
-                  </a>
-                </li>
+                
                 <li class="menu-item">
                   <a href="ui-list-groups.html" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
@@ -184,33 +180,6 @@
                   </a>
                 </li>
               </ul>
-            </li>
-
-            <!-- Extended components -->
-            <li class="menu-item">
-              <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
-                <div data-i18n="Extended UI">Extended UI</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                    <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="extended-ui-text-divider.html" class="menu-link">
-                    <div data-i18n="Text Divider">Text Divider</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="menu-item">
-              <a href="icons-boxicons.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-crown"></i>
-                <div data-i18n="Boxicons">Boxicons</div>
-              </a>
             </li>
 
             <!-- Forms & Tables -->
@@ -376,6 +345,86 @@
                         <textarea class="form-control" aria-label="With textarea" placeholder="Comment"></textarea>
                       </div>
                     </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'forms-code-1')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="forms-code-1" style="display:none;">
+                            &lt;div class="card mb-4"&gt;
+                            &lt;h5 class="card-header"&gt;Basic&lt;/h5&gt;
+                            &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                              &lt;div class="input-group"&gt;
+                                &lt;span class="input-group-text" id="basic-addon11"&gt;@&lt;/span&gt;
+                                &lt;input
+                                  type="text"
+                                  class="form-control"
+                                  placeholder="Username"
+                                  aria-label="Username"
+                                  aria-describedby="basic-addon11"
+                                /&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="form-password-toggle"&gt;
+                                &lt;label class="form-label" for="basic-default-password12"&gt;Password&lt;/label&gt;
+                                &lt;div class="input-group"&gt;
+                                  &lt;input
+                                    type="password"
+                                    class="form-control"
+                                    id="basic-default-password12"
+                                    placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                    aria-describedby="basic-default-password2"
+                                  /&gt;
+                                  &lt;span id="basic-default-password2" class="input-group-text cursor-pointer"&gt;
+                                    &lt;i class="bx bx-hide"&gt;&lt;/i&gt;
+                                  &lt;/span&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;input
+                                  type="text"
+                                  class="form-control"
+                                  placeholder="Recipient's username"
+                                  aria-label="Recipient's username"
+                                  aria-describedby="basic-addon13"
+                                /&gt;
+                                &lt;span class="input-group-text" id="basic-addon13"&gt;@example.com&lt;/span&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;span class="input-group-text" id="basic-addon14"&gt;https://example.com/users/&lt;/span&gt;
+                                &lt;input
+                                  type="text"
+                                  class="form-control"
+                                  placeholder="URL"
+                                  id="basic-url1"
+                                  aria-describedby="basic-addon14"
+                                /&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                                &lt;input
+                                  type="text"
+                                  class="form-control"
+                                  placeholder="Amount"
+                                  aria-label="Amount (to the nearest dollar)"
+                                /&gt;
+                                &lt;span class="input-group-text"&gt;.00&lt;/span&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;span class="input-group-text"&gt;With textarea&lt;/span&gt;
+                                &lt;textarea class="form-control" aria-label="With textarea" placeholder="Comment"&gt;&lt;/textarea&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                   </div>
                 </div>
 
@@ -443,6 +492,80 @@
                         <textarea class="form-control" aria-label="With textarea"></textarea>
                       </div>
                     </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-2')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-2" style="display:none;">
+                      &lt;div class="card mb-4"&gt;
+                        &lt;h5 class="card-header"&gt;Merged&lt;/h5&gt;
+                        &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                          &lt;div class="input-group input-group-merge"&gt;
+                            &lt;span class="input-group-text" id="basic-addon-search31"&gt;&lt;i class="bx bx-search"&gt;&lt;/i&gt;&lt;/span&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              placeholder="Search..."
+                              aria-label="Search..."
+                              aria-describedby="basic-addon-search31"
+                            /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="form-password-toggle"&gt;
+                            &lt;label class="form-label" for="basic-default-password32"&gt;Password&lt;/label&gt;
+                            &lt;div class="input-group input-group-merge"&gt;
+                              &lt;input
+                                type="password"
+                                class="form-control"
+                                id="basic-default-password32"
+                                placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                aria-describedby="basic-default-password"
+                              /&gt;
+                              &lt;span class="input-group-text cursor-pointer" id="basic-default-password"&gt;
+                                &lt;i class="bx bx-hide"&gt;&lt;/i&gt;
+                              &lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group input-group-merge"&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              placeholder="Recipient's username"
+                              aria-label="Recipient's username"
+                              aria-describedby="basic-addon33"
+                            /&gt;
+                            &lt;span class="input-group-text" id="basic-addon33"&gt;@example.com&lt;/span&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group input-group-merge"&gt;
+                            &lt;span class="input-group-text" id="basic-addon34"&gt;https://example.com/users/&lt;/span&gt;
+                            &lt;input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon34" /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group input-group-merge"&gt;
+                            &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              placeholder="100"
+                              aria-label="Amount (to the nearest dollar)"
+                            /&gt;
+                            &lt;span class="input-group-text"&gt;.00&lt;/span&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group input-group-merge"&gt;
+                            &lt;span class="input-group-text"&gt;With textarea&lt;/span&gt;
+                            &lt;textarea class="form-control" aria-label="With textarea"&gt;&lt;/textarea&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </div>                  
                   </div>
                 </div>
 
@@ -465,6 +588,36 @@
                         <span class="input-group-text">@</span>
                         <input type="text" class="form-control" placeholder="Username" />
                       </div>
+                    </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-3')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-3" style="display:none;">
+                      &lt;div class="card mb-4"&gt;
+                        &lt;h5 class="card-header"&gt;Sizing&lt;/h5&gt;
+                        &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                          &lt;div class="input-group input-group-lg"&gt;
+                            &lt;span class="input-group-text"&gt;@&lt;/span&gt;
+                            &lt;input type="text" class="form-control" placeholder="Username" /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group"&gt;
+                            &lt;span class="input-group-text"&gt;@&lt;/span&gt;
+                            &lt;input type="text" class="form-control" placeholder="Username" /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group input-group-sm"&gt;
+                            &lt;span class="input-group-text"&gt;@&lt;/span&gt;
+                            &lt;input type="text" class="form-control" placeholder="Username" /&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
                     </div>
                   </div>
                 </div>
@@ -497,8 +650,47 @@
                         <input type="text" class="form-control" aria-label="Text input with radio button" />
                       </div>
                     </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-4')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-4" style="display:none;">
+                      &lt;div class="card mb-4"&gt;
+                        &lt;h5 class="card-header"&gt;Checkbox and radio addons&lt;/h5&gt;
+                        &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                          &lt;div class="input-group"&gt;
+                            &lt;div class="input-group-text"&gt;
+                              &lt;input
+                                class="form-check-input mt-0"
+                                type="checkbox"
+                                value=""
+                                aria-label="Checkbox for following text input"
+                              /&gt;
+                            &lt;/div&gt;
+                            &lt;input type="text" class="form-control" aria-label="Text input with checkbox" /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group"&gt;
+                            &lt;div class="input-group-text"&gt;
+                              &lt;input
+                                class="form-check-input mt-0"
+                                type="radio"
+                                value=""
+                                aria-label="Radio button for following text input"
+                              /&gt;
+                            &lt;/div&gt;
+                            &lt;input type="text" class="form-control" aria-label="Text input with radio button" /&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </div>
                   </div>
-                </div>
+                  </div>
               </div>
 
               <div class="row">
@@ -536,6 +728,49 @@
                         <span class="input-group-text">0.00</span>
                       </div>
                     </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-5')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-5" style="display:none;">
+                      &lt;div class="card mb-4"&gt;
+                        &lt;h5 class="card-header"&gt;Multiple inputs &amp; addon&lt;/h5&gt;
+                        &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                          &lt;small class="text-light fw-semibold d-block"&gt;Multiple inputs&lt;/small&gt;
+                          &lt;div class="input-group"&gt;
+                            &lt;span class="input-group-text"&gt;First and last name&lt;/span&gt;
+                            &lt;input type="text" aria-label="First name" class="form-control" /&gt;
+                            &lt;input type="text" aria-label="Last name" class="form-control" /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;small class="text-light fw-semibold d-block pt-3"&gt;Multiple addons&lt;/small&gt;
+                          &lt;div class="input-group"&gt;
+                            &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                            &lt;span class="input-group-text"&gt;0.00&lt;/span&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              aria-label="Dollar amount (with dot and two decimal places)"
+                            /&gt;
+                          &lt;/div&gt;
+  
+                          &lt;div class="input-group"&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              aria-label="Dollar amount (with dot and two decimal places)"
+                            /&gt;
+                            &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                            &lt;span class="input-group-text"&gt;0.00&lt;/span&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </div>
                   </div>
                 </div>
                 <!-- Speech To Text -->
@@ -543,7 +778,7 @@
                   <div class="card mb-4">
                     <h5 class="card-header">Speech To Text</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
-                      <small class="text-light fw-semibold d-block">Input Group</small>
+                      <small class="text-light fw-semibold d-block">Input Group</small> 
 
                       <div class="input-group input-group-merge speech-to-text">
                         <input
@@ -565,6 +800,44 @@
                           <i class="bx bx-microphone cursor-pointer text-to-speech-toggle"></i>
                         </span>
                       </div>
+                    </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-6')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-6" style="display:none;">
+                      &lt;div class="card mb-4"&gt;
+                        &lt;h5 class="card-header"&gt;Speech To Text&lt;/h5&gt;
+                        &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                          &lt;small class="text-light fw-semibold d-block"&gt;Input Group&lt;/small&gt; 
+
+                          &lt;div class="input-group input-group-merge speech-to-text"&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              placeholder="Say it"
+                              aria-describedby="text-to-speech-addon"
+                            /&gt;
+                            &lt;span class="input-group-text" id="text-to-speech-addon"&gt;
+                              &lt;i class="bx bx-microphone cursor-pointer text-to-speech-toggle"&gt;&lt;/i&gt;
+                            &lt;/span&gt;
+                          &lt;/div&gt;
+
+                          &lt;small class="text-light fw-semibold d-block pt-3"&gt;Textarea&lt;/small&gt;
+
+                          &lt;div class="input-group input-group-merge speech-to-text"&gt;
+                            &lt;textarea class="form-control" placeholder="Say it" rows="2"&gt;&lt;/textarea&gt;
+                            &lt;span class="input-group-text"&gt;
+                              &lt;i class="bx bx-microphone cursor-pointer text-to-speech-toggle"&gt;&lt;/i&gt;
+                            &lt;/span&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
                     </div>
                   </div>
                 </div>
@@ -702,6 +975,151 @@
                         </ul>
                       </div>
                     </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-7')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-7" style="display:none;">
+                      &lt;div class="card mb-4"&gt;
+                      &lt;h5 class="card-header"&gt;Button with dropdowns &amp; addons&lt;/h5&gt;
+                      &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                        &lt;small class="text-light fw-semibold d-block"&gt;Button addons&lt;/small&gt;
+                        &lt;div class="input-group"&gt;
+                          &lt;button class="btn btn-outline-primary" type="button" id="button-addon1"&gt;Button&lt;/button&gt;
+                          &lt;input
+                            type="text"
+                            class="form-control"
+                            placeholder=""
+                            aria-label="Example text with button addon"
+                            aria-describedby="button-addon1"
+                          /&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="input-group"&gt;
+                          &lt;input
+                            type="text"
+                            class="form-control"
+                            placeholder="Recipient's username"
+                            aria-label="Recipient's username"
+                            aria-describedby="button-addon2"
+                          /&gt;
+                          &lt;button class="btn btn-outline-primary" type="button" id="button-addon2"&gt;Button&lt;/button&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="input-group"&gt;
+                          &lt;button class="btn btn-outline-primary" type="button"&gt;Button&lt;/button&gt;
+                          &lt;button class="btn btn-outline-primary" type="button"&gt;Button&lt;/button&gt;
+                          &lt;input
+                            type="text"
+                            class="form-control"
+                            placeholder=""
+                            aria-label="Example text with two button addons"
+                          /&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="input-group"&gt;
+                          &lt;input
+                            type="text"
+                            class="form-control"
+                            placeholder="Recipient's username"
+                            aria-label="Recipient's username with two button addons"
+                          /&gt;
+                          &lt;button class="btn btn-outline-primary" type="button"&gt;Button&lt;/button&gt;
+                          &lt;button class="btn btn-outline-primary" type="button"&gt;Button&lt;/button&gt;
+                        &lt;/div&gt;
+
+                        &lt;small class="text-light fw-semibold d-block pt-3"&gt;Button with dropdowns&lt;/small&gt;
+                        &lt;div class="input-group"&gt;
+                          &lt;button
+                            class="btn btn-outline-primary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          &gt;
+                            Dropdown
+                          &lt;/button&gt;
+                          &lt;ul class="dropdown-menu"&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                              &lt;hr class="dropdown-divider" /&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                          &lt;input type="text" class="form-control" aria-label="Text input with dropdown button" /&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="input-group"&gt;
+                          &lt;input type="text" class="form-control" aria-label="Text input with dropdown button" /&gt;
+                          &lt;button
+                            class="btn btn-outline-primary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          &gt;
+                            Dropdown
+                          &lt;/button&gt;
+                          &lt;ul class="dropdown-menu dropdown-menu-end"&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                              &lt;hr class="dropdown-divider" /&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="input-group"&gt;
+                          &lt;button
+                            class="btn btn-outline-primary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          &gt;
+                            Dropdown
+                          &lt;/button&gt;
+                          &lt;ul class="dropdown-menu"&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action before&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action before&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                              &lt;hr class="dropdown-divider" /&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                          &lt;input
+                            type="text"
+                            class="form-control"
+                            aria-label="Text input with 2 dropdown buttons"
+                          /&gt;
+                          &lt;button
+                            class="btn btn-outline-primary dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          &gt;
+                            Dropdown
+                          &lt;/button&gt;
+                          &lt;ul class="dropdown-menu dropdown-menu-end"&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                              &lt;hr class="dropdown-divider" /&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    </div>
                   </div>
                 </div>
 
@@ -764,6 +1182,61 @@
                             </ul>
                           </div>
                         </div>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'forms-code-8')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="forms-code-8" style="display:none;">
+                          &lt;div class="card mb-4"&gt;
+                            &lt;h5 class="card-header"&gt;Segmented buttons&lt;/h5&gt;
+                            &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                              &lt;div class="input-group"&gt;
+                                &lt;button type="button" class="btn btn-outline-primary"&gt;Action&lt;/button&gt;
+                                &lt;button
+                                  type="button"
+                                  class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                &gt;
+                                  &lt;span class="visually-hidden"&gt;Toggle Dropdown&lt;/span&gt;
+                                &lt;/button&gt;
+                                &lt;ul class="dropdown-menu"&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;hr class="dropdown-divider" /&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                                &lt;input type="text" class="form-control" aria-label="Text input with segmented dropdown button" /&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;input type="text" class="form-control" aria-label="Text input with segmented dropdown button" /&gt;
+                                &lt;button type="button" class="btn btn-outline-primary"&gt;Action&lt;/button&gt;
+                                &lt;button
+                                  type="button"
+                                  class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                &gt;
+                                  &lt;span class="visually-hidden"&gt;Toggle Dropdown&lt;/span&gt;
+                                &lt;/button&gt;
+                                &lt;ul class="dropdown-menu dropdown-menu-end"&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;hr class="dropdown-divider" /&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a class="dropdown-item" href="javascript:void(0);"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -822,6 +1295,69 @@
                             <button class="btn btn-outline-primary" type="button">Button</button>
                           </div>
                         </div>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'forms-code-9')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="forms-code-9" style="display:none;">
+                          &lt;div class="card mb-4"&gt;
+                            &lt;h5 class="card-header"&gt;Custom select&lt;/h5&gt;
+                            &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                              &lt;div class="input-group"&gt;
+                                &lt;label class="input-group-text" for="inputGroupSelect01"&gt;Options&lt;/label&gt;
+                                &lt;select class="form-select" id="inputGroupSelect01"&gt;
+                                  &lt;option selected&gt;Choose...&lt;/option&gt;
+                                  &lt;option value="1"&gt;One&lt;/option&gt;
+                                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                                &lt;/select&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;select class="form-select" id="inputGroupSelect02"&gt;
+                                  &lt;option selected&gt;Choose...&lt;/option&gt;
+                                  &lt;option value="1"&gt;One&lt;/option&gt;
+                                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                                &lt;/select&gt;
+                                &lt;label class="input-group-text" for="inputGroupSelect02"&gt;Options&lt;/label&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;button class="btn btn-outline-primary" type="button"&gt;Button&lt;/button&gt;
+                                &lt;select
+                                  class="form-select"
+                                  id="inputGroupSelect03"
+                                  aria-label="Example select with button addon"
+                                &gt;
+                                  &lt;option selected&gt;Choose...&lt;/option&gt;
+                                  &lt;option value="1"&gt;One&lt;/option&gt;
+                                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                                &lt;/select&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="input-group"&gt;
+                                &lt;select
+                                  class="form-select"
+                                  id="inputGroupSelect04"
+                                  aria-label="Example select with button addon"
+                                &gt;
+                                  &lt;option selected&gt;Choose...&lt;/option&gt;
+                                  &lt;option value="1"&gt;One&lt;/option&gt;
+                                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                                &lt;/select&gt;
+                                &lt;button class="btn btn-outline-primary" type="button"&gt;Button&lt;/button&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -865,6 +1401,53 @@
                         />
                         <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">Button</button>
                       </div>
+                    </div>
+                    <button type="button" class="btn btn-icon btn-outline-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-offset="0,4"
+                      onclick="copyCode(this, 'forms-code-10')"
+                      data-bs-placement="top"
+                      data-bs-html="true"
+                      title="Copy the code">
+                      <span class="tf-icons bx bx-copy-alt"></span>
+                    </button>
+                    <div id="forms-code-10" style="display:none;">
+                      &lt;div class="card"&gt;
+                        &lt;h5 class="card-header"&gt;Custom file input&lt;/h5&gt;
+                        &lt;div class="card-body demo-vertical-spacing demo-only-element"&gt;
+                          &lt;div class="input-group"&gt;
+                            &lt;label class="input-group-text" for="inputGroupFile01"&gt;Upload&lt;/label&gt;
+                            &lt;input type="file" class="form-control" id="inputGroupFile01" /&gt;
+                          &lt;/div&gt;
+
+                          &lt;div class="input-group"&gt;
+                            &lt;input type="file" class="form-control" id="inputGroupFile02" /&gt;
+                            &lt;label class="input-group-text" for="inputGroupFile02"&gt;Upload&lt;/label&gt;
+                          &lt;/div&gt;
+
+                          &lt;div class="input-group"&gt;
+                            &lt;button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon03"&gt;Button&lt;/button&gt;
+                            &lt;input
+                              type="file"
+                              class="form-control"
+                              id="inputGroupFile03"
+                              aria-describedby="inputGroupFileAddon03"
+                              aria-label="Upload"
+                            /&gt;
+                          &lt;/div&gt;
+
+                          &lt;div class="input-group"&gt;
+                            &lt;input
+                              type="file"
+                              class="form-control"
+                              id="inputGroupFile04"
+                              aria-describedby="inputGroupFileAddon04"
+                              aria-label="Upload"
+                            /&gt;
+                            &lt;button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04"&gt;Button&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
                     </div>
                   </div>
                 </div>

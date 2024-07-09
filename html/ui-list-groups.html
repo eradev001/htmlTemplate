@@ -123,11 +123,7 @@
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="ui-footer.html" class="menu-link">
-                    <div data-i18n="Footer">Footer</div>
-                  </a>
-                </li>
+                
                 <li class="menu-item active">
                   <a href="ui-list-groups.html" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
@@ -186,32 +182,8 @@
               </ul>
             </li>
 
-            <!-- Extended components -->
-            <li class="menu-item">
-              <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
-                <div data-i18n="Extended UI">Extended UI</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                    <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="extended-ui-text-divider.html" class="menu-link">
-                    <div data-i18n="Text Divider">Text Divider</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
+            
 
-            <li class="menu-item">
-              <a href="icons-boxicons.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-crown"></i>
-                <div data-i18n="Boxicons">Boxicons</div>
-              </a>
-            </li>
 
             <!-- Forms & Tables -->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li>
@@ -331,6 +303,29 @@
                           >
                         </div>
                       </div>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'list-code-1')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="list-code-1" style="display:none;">
+                              &lt;div class="col-lg-6 mb-4 mb-xl-0"&gt;
+                                  &lt;small class="text-light fw-semibold"&gt;Basic&lt;/small&gt;
+                                  &lt;div class="demo-inline-spacing mt-3"&gt;
+                                      &lt;div class="list-group"&gt;
+                                          &lt;a href="javascript:void(0);" class="list-group-item list-group-item-action active"&gt;Bear claw cake biscuit&lt;/a&gt;
+                                          &lt;a href="javascript:void(0);" class="list-group-item list-group-item-action"&gt;Soufflé pastry pie ice&lt;/a&gt;
+                                          &lt;a href="javascript:void(0);" class="list-group-item list-group-item-action disabled"&gt;Tart tiramisu cake&lt;/a&gt;
+                                          &lt;a href="javascript:void(0);" class="list-group-item list-group-item-action"&gt;Bonbon toffee muffin&lt;/a&gt;
+                                          &lt;a href="javascript:void(0);" class="list-group-item list-group-item-action"&gt;Dragée tootsie roll&lt;/a&gt;
+                                      &lt;/div&gt;
+                                  &lt;/div&gt;
+                              &lt;/div&gt;
+                            </div>
                     </div>
                     <!--/ Basic List group -->
                     <!-- List group with Badges & Pills -->
@@ -617,6 +612,68 @@
                           </div>
                         </div>
                       </div>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'list-code-2')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="list-code-2" style="display:none;">
+                          &lt;div class="col-lg-6 mb-4 mb-xl-0"&gt;
+                                &lt;small class="text-light fw-semibold"&gt;Vertical&lt;/small&gt;
+                                &lt;div class="mt-3"&gt;
+                                    &lt;div class="row"&gt;
+                                        &lt;div class="col-md-4 col-12 mb-3 mb-md-0"&gt;
+                                            &lt;div class="list-group"&gt;
+                                                &lt;a
+                                                    class="list-group-item list-group-item-action active"
+                                                    id="list-home-list"
+                                                    data-bs-toggle="list"
+                                                    href="#list-home"
+                                                &gt;Home&lt;/a&gt;
+                                                &lt;a
+                                                    class="list-group-item list-group-item-action"
+                                                    id="list-profile-list"
+                                                    data-bs-toggle="list"
+                                                    href="#list-profile"
+                                                &gt;Profile&lt;/a&gt;
+                                                &lt;a
+                                                    class="list-group-item list-group-item-action"
+                                                    id="list-messages-list"
+                                                    data-bs-toggle="list"
+                                                    href="#list-messages"
+                                                &gt;Messages&lt;/a&gt;
+                                                &lt;a
+                                                    class="list-group-item list-group-item-action"
+                                                    id="list-settings-list"
+                                                    data-bs-toggle="list"
+                                                    href="#list-settings"
+                                                &gt;Settings&lt;/a&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-8 col-12"&gt;
+                                            &lt;div class="tab-content p-0"&gt;
+                                                &lt;div class="tab-pane fade show active" id="list-home"&gt;
+                                                    Donut sugar plum sweet roll biscuit. Cake oat cake gummi bears. Tart wafer wafer halvah gummi bears cheesecake. Topping croissant cake sweet roll. Dessert fruitcake gingerbread halvah marshmallow pudding bear claw cheesecake. Bonbon dragée cookie gummies. Pudding marzipan liquorice. Sugar plum dragée cupcake cupcake cake dessert chocolate bar. Pastry lollipop lemon drops lollipop halvah croissant. Pastry sweet gingerbread lemon drops topping ice cream.
+                                                &lt;/div&gt;
+                                                &lt;div class="tab-pane fade" id="list-profile"&gt;
+                                                    Muffin lemon drops chocolate chupa chups jelly beans dessert jelly-o. Soufflé gummies gummies. Ice cream powder marshmallow cotton candy oat cake wafer. Marshmallow gingerbread tootsie roll. Chocolate cake bonbon jelly beans lollipop jelly beans halvah marzipan danish pie. Oat cake chocolate cake pudding bear claw liquorice gingerbread icing sugar plum brownie. Toffee cookie apple pie cheesecake bear claw sugar plum wafer gummi bears fruitcake.
+                                                &lt;/div&gt;
+                                                &lt;div class="tab-pane fade" id="list-messages"&gt;
+                                                    Ice cream dessert candy sugar plum croissant cupcake tart pie apple pie. Pastry chocolate chupa chups tiramisu. Tiramisu cookie oat cake. Pudding brownie bonbon. Pie carrot cake chocolate macaroon. Halvah jelly jelly beans cake macaroon jelly-o. Danish pastry dessert gingerbread powder halvah. Muffin bonbon fruitcake dragée sweet sesame snaps oat cake marshmallow cheesecake. Cupcake donut sweet bonbon cheesecake soufflé chocolate bar.
+                                                &lt;/div&gt;
+                                                &lt;div class="tab-pane fade" id="list-settings"&gt;
+                                                    Marzipan cake oat cake. Marshmallow pie chocolate. Liquorice oat cake donut halvah jelly-o. Jelly-o muffin macaroon cake gingerbread candy cupcake. Cake lollipop lollipop jelly brownie cake topping chocolate. Pie oat cake jelly. Lemon drops halvah jelly cookie bonbon cake cupcake ice cream. Donut tart bonbon sweet roll soufflé gummies biscuit. Wafer toffee topping jelly beans icing pie apple pie toffee pudding. Tiramisu powder macaroon tiramisu cake halvah.
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                      </div>
                     </div>
                     <div class="col-lg-6">
                       <small class="text-light fw-semibold">Horizontal</small>
@@ -685,6 +742,100 @@
                           </div>
                         </div>
                       </div>
+                      
+                          <div class="modal fade" id="smallModal" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-sm" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col mb-3">
+                                                <label for="nameSmall" class="form-label">Name</label>
+                                                <input type="text" id="nameSmall" class="form-control" placeholder="Enter Name" />
+                                            </div>
+                                        </div>
+                                        <div class="row g-2">
+                                            <div class="col mb-0">
+                                                <label class="form-label" for="emailSmall">Email</label>
+                                                <input type="text" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx" />
+                                            </div>
+                                            <div class="col mb-0">
+                                                <label for="dobSmall" class="form-label">DOB</label>
+                                                <input id="dobSmall" type="text" class="form-control" placeholder="DD / MM / YY" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                            Close
+                                        </button>
+                                        <button type="button" class="btn btn-primary">
+                                            Save changes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'list-code-3')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="list-code-3" style="display:none;">
+                          &lt;div class="col-lg-6"&gt;
+                              &lt;small class="text-light fw-semibold"&gt;Horizontal&lt;/small&gt;
+                              &lt;div class="demo-inline-spacing mt-3"&gt;
+                                  &lt;div class="list-group list-group-horizontal-md text-md-center"&gt;
+                                      &lt;a
+                                          class="list-group-item list-group-item-action active"
+                                          id="home-list-item"
+                                          data-bs-toggle="list"
+                                          href="#horizontal-home"
+                                      &gt;Home&lt;/a&gt;
+                                      &lt;a
+                                          class="list-group-item list-group-item-action"
+                                          id="profile-list-item"
+                                          data-bs-toggle="list"
+                                          href="#horizontal-profile"
+                                      &gt;Profile&lt;/a&gt;
+                                      &lt;a
+                                          class="list-group-item list-group-item-action"
+                                          id="messages-list-item"
+                                          data-bs-toggle="list"
+                                          href="#horizontal-messages"
+                                      &gt;Messages&lt;/a&gt;
+                                      &lt;a
+                                          class="list-group-item list-group-item-action"
+                                          id="settings-list-item"
+                                          data-bs-toggle="list"
+                                          href="#horizontal-settings"
+                                      &gt;Settings&lt;/a&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="tab-content px-0 mt-0"&gt;
+                                      &lt;div class="tab-pane fade show active" id="horizontal-home"&gt;
+                                          Donut sugar plum sweet roll biscuit. Cake oat cake gummi bears. Tart wafer wafer halvah gummi bears cheesecake. Topping croissant cake sweet roll. Dessert fruitcake gingerbread halvah marshmallow pudding bear claw cheesecake. Bonbon dragée cookie gummies. Pudding marzipan liquorice. Sugar plum dragée cupcake cupcake cake dessert chocolate bar. Pastry lollipop lemon drops lollipop halvah croissant. Pastry sweet gingerbread lemon drops topping ice cream.
+                                      &lt;/div&gt;
+                                      &lt;div class="tab-pane fade" id="horizontal-profile"&gt;
+                                          Muffin lemon drops chocolate chupa chups jelly beans dessert jelly-o. Soufflé gummies gummies. Ice cream powder marshmallow cotton candy oat cake wafer. Marshmallow gingerbread tootsie roll. Chocolate cake bonbon jelly beans lollipop jelly beans halvah marzipan danish pie. Oat cake chocolate cake pudding bear claw liquorice gingerbread icing sugar plum brownie. Toffee cookie apple pie cheesecake bear claw sugar plum wafer gummi bears fruitcake.
+                                      &lt;/div&gt;
+                                      &lt;div class="tab-pane fade" id="horizontal-messages"&gt;
+                                          Ice cream dessert candy sugar plum croissant cupcake tart pie apple pie. Pastry chocolate chupa chups tiramisu. Tiramisu cookie oat cake. Pudding brownie bonbon. Pie carrot cake chocolate macaroon. Halvah jelly jelly beans cake macaroon jelly-o. Danish pastry dessert gingerbread powder halvah. Muffin bonbon fruitcake dragée sweet sesame snaps oat cake marshmallow cheesecake. Cupcake donut sweet bonbon cheesecake soufflé chocolate bar.
+                                      &lt;/div&gt;
+                                      &lt;div class="tab-pane fade" id="horizontal-settings"&gt;
+                                          Marzipan cake oat cake. Marshmallow pie chocolate. Liquorice oat cake donut halvah jelly-o. Jelly-o muffin macaroon cake gingerbread candy cupcake. Cake lollipop lollipop jelly brownie cake topping chocolate. Pie oat cake jelly. Lemon drops halvah jelly cookie bonbon cake cupcake ice cream. Donut tart bonbon sweet roll soufflé gummies biscuit. Wafer toffee topping jelly beans icing pie apple pie toffee pudding. Tiramisu powder macaroon tiramisu cake halvah.
+                                      &lt;/div&gt;
+                                  &lt;/div&gt;
+                              &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                     </div>
                     <!--/ Custom content with heading -->
                   </div>

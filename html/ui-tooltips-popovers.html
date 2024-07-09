@@ -123,11 +123,7 @@
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="ui-footer.html" class="menu-link">
-                    <div data-i18n="Footer">Footer</div>
-                  </a>
-                </li>
+                
                 <li class="menu-item">
                   <a href="ui-list-groups.html" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
@@ -184,33 +180,6 @@
                   </a>
                 </li>
               </ul>
-            </li>
-
-            <!-- Extended components -->
-            <li class="menu-item">
-              <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
-                <div data-i18n="Extended UI">Extended UI</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                    <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="extended-ui-text-divider.html" class="menu-link">
-                    <div data-i18n="Text Divider">Text Divider</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="menu-item">
-              <a href="icons-boxicons.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-crown"></i>
-                <div data-i18n="Boxicons">Boxicons</div>
-              </a>
             </li>
 
             <!-- Forms & Tables -->
@@ -325,6 +294,27 @@
                       >
                         Right
                       </button>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'tool-code-1')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                      </button>
+                      <div id="tool-code-1" style="display:none;">
+                        &lt;button
+                          type="button"
+                          class="btn btn-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          data-bs-placement="right"
+                          data-bs-html="true"
+                          title="&lt;i class='bx bx-trending-up bx-xs' &gt;&lt;/i&gt; &lt;span&gt;Tooltip on right&lt;/span&gt;"&gt;
+                          Right
+                        &lt;/button&gt;
+                      </div>
                     </div>
                     <div class="col">
                       <button
@@ -389,6 +379,28 @@
                       >
                         Popover on right
                       </button>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'tool-code-2')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                      </button>
+                      <div id="tool-code-2" style="display:none;">
+                        &lt;button
+                          type="button"
+                          class="btn btn-primary text-nowrap"
+                          data-bs-toggle="popover"
+                          data-bs-offset="0,14"
+                          data-bs-placement="right"
+                          data-bs-html="true"
+                          data-bs-content="&lt;p&gt;This is a very beautiful popover, show some love.&lt;/p&gt; &lt;div class='d-flex justify-content-between'&gt;&lt;button type='button' class='btn btn-sm btn-outline-secondary'&gt;Skip&lt;/button&gt;&lt;button type='button' class='btn btn-sm btn-primary'&gt;Read More&lt;/button&gt;&lt;/div&gt;"
+                          title="Popover Title"&gt;
+                          Popover on right
+                        &lt;/button&gt;
+                      </div>
                     </div>
                     <div class="col">
                       <button

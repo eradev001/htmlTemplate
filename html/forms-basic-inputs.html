@@ -123,11 +123,7 @@
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="ui-footer.html" class="menu-link">
-                    <div data-i18n="Footer">Footer</div>
-                  </a>
-                </li>
+                
                 <li class="menu-item">
                   <a href="ui-list-groups.html" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
@@ -184,33 +180,6 @@
                   </a>
                 </li>
               </ul>
-            </li>
-
-            <!-- Extended components -->
-            <li class="menu-item">
-              <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
-                <div data-i18n="Extended UI">Extended UI</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                    <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="extended-ui-text-divider.html" class="menu-link">
-                    <div data-i18n="Text Divider">Text Divider</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="menu-item">
-              <a href="icons-boxicons.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-crown"></i>
-                <div data-i18n="Boxicons">Boxicons</div>
-              </a>
             </li>
 
             <!-- Forms & Tables -->
@@ -323,6 +292,30 @@
                           We'll never share your details with anyone else.
                         </div>
                       </div>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-1')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-1" style="display:none;">
+                          &lt;div&gt;
+                            &lt;label for="defaultFormControlInput" class="form-label"&gt;Name&lt;/label&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              id="defaultFormControlInput"
+                              placeholder="John Doe"
+                              aria-describedby="defaultFormControlHelp"
+                            /&gt;
+                            &lt;div id="defaultFormControlHelp" class="form-text"&gt;
+                              We'll never share your details with anyone else.
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -343,7 +336,33 @@
                           We'll never share your details with anyone else.
                         </div>
                       </div>
-                    </div>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-2')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                      </button>
+                      <div id="form-code-2" style="display:none;">
+                        &lt;div class="card-body"&gt;
+                          &lt;div class="form-floating"&gt;
+                            &lt;input
+                              type="text"
+                              class="form-control"
+                              id="floatingInput"
+                              placeholder="John Doe"
+                              aria-describedby="floatingInputHelp"
+                            /&gt;
+                            &lt;label for="floatingInput"&gt;Name&lt;/label&gt;
+                            &lt;div id="floatingInputHelp" class="form-text"&gt;
+                              We'll never share your details with anyone else.
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      </div>
+                    </div>                    
                   </div>
                 </div>
 
@@ -360,6 +379,26 @@
                           id="exampleFormControlInput1"
                           placeholder="name@example.com"
                         />
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-3')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-3" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="exampleFormControlInput1" class="form-label"&gt;Email address&lt;/label&gt;
+                            &lt;input
+                              type="email"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="name@example.com"
+                            /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlReadOnlyInput1" class="form-label">Read only</label>
@@ -370,6 +409,27 @@
                           placeholder="Readonly input here..."
                           readonly
                         />
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-4')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-4" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="exampleFormControlReadOnlyInput1" class="form-label"&gt;Read only&lt;/label&gt;
+                            &lt;input
+                              class="form-control"
+                              type="text"
+                              id="exampleFormControlReadOnlyInput1"
+                              placeholder="Readonly input here..."
+                              readonly
+                            /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlReadOnlyInputPlain1" class="form-label">Read plain</label>
@@ -380,6 +440,27 @@
                           id="exampleFormControlReadOnlyInputPlain1"
                           value="email@example.com"
                         />
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-5')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-5" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="exampleFormControlReadOnlyInputPlain1" class="form-label"&gt;Read plain&lt;/label&gt;
+                            &lt;input
+                              type="text"
+                              readonly
+                              class="form-control-plaintext"
+                              id="exampleFormControlReadOnlyInputPlain1"
+                              value="email@example.com"
+                            /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlSelect1" class="form-label">Example select</label>
@@ -389,6 +470,26 @@
                           <option value="2">Two</option>
                           <option value="3">Three</option>
                         </select>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-6')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-6" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="exampleFormControlSelect1" class="form-label"&gt;Example select&lt;/label&gt;
+                            &lt;select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example"&gt;
+                              &lt;option selected&gt;Open this select menu&lt;/option&gt;
+                              &lt;option value="1"&gt;One&lt;/option&gt;
+                              &lt;option value="2"&gt;Two&lt;/option&gt;
+                              &lt;option value="3"&gt;Three&lt;/option&gt;
+                            &lt;/select&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="exampleDataList" class="form-label">Datalist example</label>
@@ -405,6 +506,30 @@
                           <option value="Los Angeles"></option>
                           <option value="Chicago"></option>
                         </datalist>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-7')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-7" style="display:none;">
+                          &lt;input
+                            class="form-control"
+                            list="datalistOptions"
+                            id="exampleDataList"
+                            placeholder="Type to search..."
+                          /&gt;
+                          &lt;datalist id="datalistOptions"&gt;
+                            &lt;option value="San Francisco"&gt;&lt;/option&gt;
+                            &lt;option value="New York"&gt;&lt;/option&gt;
+                            &lt;option value="Seattle"&gt;&lt;/option&gt;
+                            &lt;option value="Los Angeles"&gt;&lt;/option&gt;
+                            &lt;option value="Chicago"&gt;&lt;/option&gt;
+                          &lt;/datalist&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlSelect2" class="form-label">Example multiple select</label>
@@ -419,6 +544,29 @@
                           <option value="2">Two</option>
                           <option value="3">Three</option>
                         </select>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-8')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-8" style="display:none;">
+                          &lt;label for="exampleFormControlSelect2" class="form-label"&gt;Example multiple select&lt;/label&gt;
+                          &lt;select
+                            multiple
+                            class="form-select"
+                            id="exampleFormControlSelect2"
+                            aria-label="Multiple select example"
+                          &gt;
+                            &lt;option selected&gt;Open this select menu&lt;/option&gt;
+                            &lt;option value="1"&gt;One&lt;/option&gt;
+                            &lt;option value="2"&gt;Two&lt;/option&gt;
+                            &lt;option value="3"&gt;Three&lt;/option&gt;
+                          &lt;/select&gt;
+                        </div>
                       </div>
                       <div>
                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
@@ -443,6 +591,23 @@
                           type="text"
                           placeholder=".form-control-lg"
                         />
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                              data-bs-toggle="tooltip"
+                              data-bs-offset="0,4"
+                              onclick="copyCode(this, 'form-code-9')"
+                              data-bs-placement="top"
+                              data-bs-html="true"
+                              title="Copy the code">
+                              <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-9" style="display:none;">
+                          &lt;input
+                          id="largeInput"
+                          class="form-control form-control-lg"
+                          type="text"
+                          placeholder=".form-control-lg"
+                          &gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="defaultInput" class="form-label">Default input</label>
@@ -456,6 +621,24 @@
                           type="text"
                           placeholder=".form-control-sm"
                         />
+                          <button type="button" class="btn btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-10')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                          </button>
+                        <div id="form-code-10" style="display:none;">
+                          &lt;label for="smallInput" class="form-label"&gt;Small input&lt;/label&gt;
+                          &lt;input
+                            id="smallInput"
+                            class="form-control form-control-sm"
+                            type="text"
+                            placeholder=".form-control-sm"
+                          /&gt;
+                        </div>
                       </div>
                     </div>
                     <hr class="m-0" />
@@ -470,15 +653,27 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="mb-3">
-                        <label for="defaultSelect" class="form-label">Default select</label>
-                        <select id="defaultSelect" class="form-select">
-                          <option>Default select</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                      </div>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-11')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                      </button>
+                      <div id="form-code-11" style="display:none;">
+                        &lt;small class="text-light fw-semibold"&gt;Input select&lt;/small&gt;
+                        &lt;div class="mt-2 mb-3"&gt;
+                          &lt;label for="largeSelect" class="form-label"&gt;Large select&lt;/label&gt;
+                          &lt;select id="largeSelect" class="form-select form-select-lg"&gt;
+                            &lt;option&gt;Large select&lt;/option&gt;
+                            &lt;option value="1"&gt;One&lt;/option&gt;
+                            &lt;option value="2"&gt;Two&lt;/option&gt;
+                            &lt;option value="3"&gt;Three&lt;/option&gt;
+                          &lt;/select&gt;
+                        &lt;/div&gt;
+                      </div>                    
                       <div>
                         <label for="smallSelect" class="form-label">Small select</label>
                         <select id="smallSelect" class="form-select form-select-sm">
@@ -487,6 +682,24 @@
                           <option value="2">Two</option>
                           <option value="3">Three</option>
                         </select>
+                        <button type="button" class="btn btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-12')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-12" style="display:none;">
+                          &lt;label for="smallSelect" class="form-label"&gt;Small select&lt;/label&gt;
+                          &lt;select id="smallSelect" class="form-select form-select-sm"&gt;
+                            &lt;option&gt;Small select&lt;/option&gt;
+                            &lt;option value="1"&gt;One&lt;/option&gt;
+                            &lt;option value="2"&gt;Two&lt;/option&gt;
+                            &lt;option value="3"&gt;Three&lt;/option&gt;
+                          &lt;/select&gt;
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -504,18 +717,78 @@
                           <div class="form-check mt-3">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                             <label class="form-check-label" for="defaultCheck1"> Unchecked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-13')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-13" style="display:none;">
+                              &lt;div class="form-check mt-3"&gt;
+                                &lt;input class="form-check-input" type="checkbox" value="" id="defaultCheck1" /&gt;
+                                &lt;label class="form-check-label" for="defaultCheck1"&gt; Unchecked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked />
                             <label class="form-check-label" for="defaultCheck2"> Indeterminate </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                  data-bs-toggle="tooltip"
+                                  data-bs-offset="0,4"
+                                  onclick="copyCode(this, 'form-code-14')"
+                                  data-bs-placement="top"
+                                  data-bs-html="true"
+                                  title="Copy the code">
+                                  <span class="tf-icons bx bx-copy-alt"></span>
+                              </button>
+                              <div id="form-code-14" style="display:none;">
+                                &lt;div class="form-check"&gt;
+                                  &lt;input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked /&gt;
+                                  &lt;label class="form-check-label" for="defaultCheck2"&gt; Indeterminate &lt;/label&gt;
+                                &lt;/div&gt;
+                              </div>                            
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" checked />
                             <label class="form-check-label" for="defaultCheck3"> Checked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-15')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-15" style="display:none;">
+                              &lt;div class="form-check"&gt;
+                                &lt;input class="form-check-input" type="checkbox" value="" id="defaultCheck3" checked /&gt;
+                                &lt;label class="form-check-label" for="defaultCheck3"&gt; Checked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="disabledCheck1" disabled />
                             <label class="form-check-label" for="disabledCheck1"> Disabled Unchecked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-16')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-16" style="display:none;">
+                              &lt;div class="form-check"&gt;
+                                &lt;input class="form-check-input" type="checkbox" value="" id="disabledCheck1" disabled /&gt;
+                                &lt;label class="form-check-label" for="disabledCheck1"&gt; Disabled Unchecked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check">
                             <input
@@ -527,6 +800,28 @@
                               checked
                             />
                             <label class="form-check-label" for="disabledCheck2"> Disabled Checked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-17')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-17" style="display:none;">
+                              &lt;div class="form-check"&gt;
+                                &lt;input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="disabledCheck2"
+                                  disabled
+                                  checked
+                                /&gt;
+                                &lt;label class="form-check-label" for="disabledCheck2"&gt; Disabled Checked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                         </div>
                         <div class="col-md">
@@ -540,6 +835,28 @@
                               id="defaultRadio1"
                             />
                             <label class="form-check-label" for="defaultRadio1"> Unchecked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-18')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-18" style="display:none;">
+                              &lt;small class="text-light fw-semibold"&gt;Radio&lt;/small&gt;
+                              &lt;div class="form-check mt-3"&gt;
+                                &lt;input
+                                  name="default-radio-1"
+                                  class="form-check-input"
+                                  type="radio"
+                                  value=""
+                                  id="defaultRadio1"
+                                /&gt;
+                                &lt;label class="form-check-label" for="defaultRadio1"&gt; Unchecked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check">
                             <input
@@ -551,10 +868,47 @@
                               checked
                             />
                             <label class="form-check-label" for="defaultRadio2"> Checked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-19')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-19" style="display:none;">
+                              &lt;div class="form-check"&gt;
+                                &lt;input
+                                  name="default-radio-1"
+                                  class="form-check-input"
+                                  type="radio"
+                                  value=""
+                                  id="defaultRadio2"
+                                  checked
+                                /&gt;
+                                &lt;label class="form-check-label" for="defaultRadio2"&gt; Checked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="radio" value="" id="disabledRadio1" disabled />
                             <label class="form-check-label" for="disabledRadio1"> Disabled unchecked </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-20')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-20" style="display:none;">
+                              &lt;div class="form-check"&gt;
+                                &lt;input class="form-check-input" type="radio" value="" id="disabledRadio1" disabled /&gt;
+                                &lt;label class="form-check-label" for="disabledRadio1"&gt; Disabled unchecked &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check">
                             <input
@@ -566,6 +920,28 @@
                               checked
                             />
                             <label class="form-check-label" for="disabledRadio2"> Disabled checkbox </label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-21')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-21" style="display:none;">
+                              &lt;div class="form-check"&gt;
+                                &lt;input
+                                  class="form-check-input"
+                                  type="radio"
+                                  value=""
+                                  id="disabledRadio2"
+                                  disabled
+                                  checked
+                                /&gt;
+                                &lt;label class="form-check-label" for="disabledRadio2"&gt; Disabled checkbox &lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -579,10 +955,40 @@
                           <div class="form-check form-check-inline mt-3">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
                             <label class="form-check-label" for="inlineCheckbox1">1</label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-22')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-22" style="display:none;">
+                              &lt;div class="form-check form-check-inline mt-3"&gt;
+                                &lt;input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" /&gt;
+                                &lt;label class="form-check-label" for="inlineCheckbox1"&gt;1&lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
                             <label class="form-check-label" for="inlineCheckbox2">2</label>
+                              <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                  data-bs-toggle="tooltip"
+                                  data-bs-offset="0,4"
+                                  onclick="copyCode(this, 'form-code-23')"
+                                  data-bs-placement="top"
+                                  data-bs-html="true"
+                                  title="Copy the code">
+                                  <span class="tf-icons bx bx-copy-alt"></span>
+                              </button>
+                              <div id="form-code-23" style="display:none;">
+                                &lt;div class="form-check form-check-inline"&gt;
+                                  &lt;input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" /&gt;
+                                  &lt;label class="form-check-label" for="inlineCheckbox2"&gt;2&lt;/label&gt;
+                                &lt;/div&gt;
+                              </div>
                           </div>
                           <div class="form-check form-check-inline">
                             <input
@@ -593,6 +999,27 @@
                               disabled
                             />
                             <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-24')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-24" style="display:none;">
+                              &lt;div class="form-check form-check-inline"&gt;
+                                &lt;input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="inlineCheckbox3"
+                                  value="option3"
+                                  disabled
+                                /&gt;
+                                &lt;label class="form-check-label" for="inlineCheckbox3"&gt;3 (disabled)&lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                         </div>
                         <div class="col-md">
@@ -606,6 +1033,27 @@
                               value="option1"
                             />
                             <label class="form-check-label" for="inlineRadio1">1</label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-25')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-25" style="display:none;">
+                              &lt;div class="form-check form-check-inline mt-3"&gt;
+                                &lt;input
+                                  class="form-check-input"
+                                  type="radio"
+                                  name="inlineRadioOptions"
+                                  id="inlineRadio1"
+                                  value="option1"
+                                /&gt;
+                                &lt;label class="form-check-label" for="inlineRadio1"&gt;1&lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check form-check-inline">
                             <input
@@ -616,6 +1064,27 @@
                               value="option2"
                             />
                             <label class="form-check-label" for="inlineRadio2">2</label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-26')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-26" style="display:none;">
+                              &lt;div class="form-check form-check-inline"&gt;
+                                &lt;input
+                                  class="form-check-input"
+                                  type="radio"
+                                  name="inlineRadioOptions"
+                                  id="inlineRadio2"
+                                  value="option2"
+                                /&gt;
+                                &lt;label class="form-check-label" for="inlineRadio2"&gt;2&lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                           <div class="form-check form-check-inline">
                             <input
@@ -627,6 +1096,28 @@
                               disabled
                             />
                             <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                            <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'form-code-27')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                            </button>
+                            <div id="form-code-27" style="display:none;">
+                              &lt;div class="form-check form-check-inline"&gt;
+                                &lt;input
+                                  class="form-check-input"
+                                  type="radio"
+                                  name="inlineRadioOptions"
+                                  id="inlineRadio3"
+                                  value="option3"
+                                  disabled
+                                /&gt;
+                                &lt;label class="form-check-label" for="inlineRadio3"&gt;3 (disabled)&lt;/label&gt;
+                              &lt;/div&gt;
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -642,18 +1133,63 @@
                         <label class="form-check-label" for="flexSwitchCheckDefault"
                           >Default switch checkbox input</label
                         >
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-28')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-28" style="display:none;">
+                          &lt;div class="form-check form-switch mb-2"&gt;
+                            &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" /&gt;
+                            &lt;label class="form-check-label" for="flexSwitchCheckDefault"&gt;Default switch checkbox input&lt;/label&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="form-check form-switch mb-2">
                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked />
                         <label class="form-check-label" for="flexSwitchCheckChecked"
                           >Checked switch checkbox input</label
                         >
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-29')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-29" style="display:none;">
+                          &lt;div class="form-check form-switch mb-2"&gt;
+                            &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked /&gt;
+                            &lt;label class="form-check-label" for="flexSwitchCheckChecked"&gt;Checked switch checkbox input&lt;/label&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="form-check form-switch mb-2">
                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled />
                         <label class="form-check-label" for="flexSwitchCheckDisabled"
                           >Disabled switch checkbox input</label
                         >
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-30')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-30" style="display:none;">
+                          &lt;div class="form-check form-switch mb-2"&gt;
+                            &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled /&gt;
+                            &lt;label class="form-check-label" for="flexSwitchCheckDisabled"&gt;Disabled switch checkbox input&lt;/label&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="form-check form-switch">
                         <input
@@ -666,6 +1202,27 @@
                         <label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
                           >Disabled checked switch checkbox input</label
                         >
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-31')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-31" style="display:none;">
+                          &lt;div class="form-check form-switch"&gt;
+                            &lt;input
+                              class="form-check-input"
+                              type="checkbox"
+                              id="flexSwitchCheckCheckedDisabled"
+                              checked
+                              disabled
+                            /&gt;
+                            &lt;label class="form-check-label" for="flexSwitchCheckCheckedDisabled"&gt;Disabled checked switch checkbox input&lt;/label&gt;
+                          &lt;/div&gt;
+                        </div>  
                       </div>
                     </div>
                   </div>
@@ -677,6 +1234,21 @@
                       <div class="mb-3">
                         <label for="formRange1" class="form-label">Example range</label>
                         <input type="range" class="form-range" id="formRange1" />
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-32')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-32" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="formRange1" class="form-label"&gt;Example range&lt;/label&gt;
+                            &lt;input type="range" class="form-range" id="formRange1" /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="disabledRange" class="form-label">Disabled range</label>
@@ -704,17 +1276,68 @@
                         <div class="col-md-10">
                           <input class="form-control" type="text" value="Sneat" id="html5-text-input" />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-33')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-33" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-text-input" class="col-md-2 col-form-label"&gt;Text&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="text" value="Sneat" id="html5-text-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-search-input" class="col-md-2 col-form-label">Search</label>
                         <div class="col-md-10">
                           <input class="form-control" type="search" value="Search ..." id="html5-search-input" />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-34')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-34" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-search-input" class="col-md-2 col-form-label"&gt;Search&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="search" value="Search ..." id="html5-search-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-email-input" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
                           <input class="form-control" type="email" value="john@example.com" id="html5-email-input" />
+                        </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-35')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-35" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-email-input" class="col-md-2 col-form-label"&gt;Email&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="email" value="john@example.com" id="html5-email-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
                         </div>
                       </div>
                       <div class="mb-3 row">
@@ -727,11 +1350,50 @@
                             id="html5-url-input"
                           />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-36')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-36" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-url-input" class="col-md-2 col-form-label"&gt;URL&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input
+                                class="form-control"
+                                type="url"
+                                value="https://themeselection.com"
+                                id="html5-url-input"
+                              /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-tel-input" class="col-md-2 col-form-label">Phone</label>
                         <div class="col-md-10">
                           <input class="form-control" type="tel" value="90-(164)-188-556" id="html5-tel-input" />
+                        </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-37')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-37" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-tel-input" class="col-md-2 col-form-label"&gt;Phone&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="tel" value="90-(164)-188-556" id="html5-tel-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
                         </div>
                       </div>
                       <div class="mb-3 row">
@@ -739,11 +1401,45 @@
                         <div class="col-md-10">
                           <input class="form-control" type="password" value="password" id="html5-password-input" />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-38')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-38" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-password-input" class="col-md-2 col-form-label"&gt;Password&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="password" value="password" id="html5-password-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-number-input" class="col-md-2 col-form-label">Number</label>
                         <div class="col-md-10">
                           <input class="form-control" type="number" value="18" id="html5-number-input" />
+                        </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-39')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-39" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-number-input" class="col-md-2 col-form-label"&gt;Number&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="number" value="18" id="html5-number-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
                         </div>
                       </div>
                       <div class="mb-3 row">
@@ -756,11 +1452,48 @@
                             id="html5-datetime-local-input"
                           />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                            data-bs-toggle="tooltip"
+                            data-bs-offset="0,4"
+                            onclick="copyCode(this, 'form-code-40')"
+                            data-bs-placement="top"
+                            data-bs-html="true"
+                            title="Copy the code">
+                            <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-40" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-datetime-local-input" class="col-md-2 col-form-label"&gt;Datetime&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input
+                                class="form-control"
+                                type="datetime-local"
+                                value="2021-06-18T12:30:00"
+                                id="html5-datetime-local-input"
+                              /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-date-input" class="col-md-2 col-form-label">Date</label>
                         <div class="col-md-10">
                           <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
+                        </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-41')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-41" style="display:none;">
+                            &lt;label for="html5-date-input" class="col-md-2 col-form-label"&gt;Date&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="date" value="2021-06-18" id="html5-date-input" /&gt;
+                            &lt;/div&gt;
                         </div>
                       </div>
                       <div class="mb-3 row">
@@ -768,11 +1501,45 @@
                         <div class="col-md-10">
                           <input class="form-control" type="month" value="2021-06" id="html5-month-input" />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-42')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-42" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                          &lt;label for="html5-month-input" class="col-md-2 col-form-label"&gt;Month&lt;/label&gt;
+                          &lt;div class="col-md-10"&gt;
+                            &lt;input class="form-control" type="month" value="2021-06" id="html5-month-input" /&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-week-input" class="col-md-2 col-form-label">Week</label>
                         <div class="col-md-10">
                           <input class="form-control" type="week" value="2021-W25" id="html5-week-input" />
+                        </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-43')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-43" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-week-input" class="col-md-2 col-form-label"&gt;Week&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="week" value="2021-W25" id="html5-week-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
                         </div>
                       </div>
                       <div class="mb-3 row">
@@ -780,17 +1547,68 @@
                         <div class="col-md-10">
                           <input class="form-control" type="time" value="12:30:00" id="html5-time-input" />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-44')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-44" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-time-input" class="col-md-2 col-form-label"&gt;Time&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="time" value="12:30:00" id="html5-time-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3 row">
                         <label for="html5-color-input" class="col-md-2 col-form-label">Color</label>
                         <div class="col-md-10">
                           <input class="form-control" type="color" value="#666EE8" id="html5-color-input" />
                         </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-45')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-45" style="display:none;">
+                          &lt;div class="mb-3 row"&gt;
+                            &lt;label for="html5-color-input" class="col-md-2 col-form-label"&gt;Color&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input class="form-control" type="color" value="#666EE8" id="html5-color-input" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="row">
                         <label for="html5-range" class="col-md-2 col-form-label">Range</label>
                         <div class="col-md-10">
                           <input type="range" class="form-range mt-3" id="html5-range" />
+                        </div>
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-46')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-46" style="display:none;">
+                          &lt;div class="row"&gt;
+                            &lt;label for="html5-range" class="col-md-2 col-form-label"&gt;Range&lt;/label&gt;
+                            &lt;div class="col-md-10"&gt;
+                              &lt;input type="range" class="form-range mt-3" id="html5-range" /&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
                         </div>
                       </div>
                     </div>
@@ -803,14 +1621,59 @@
                       <div class="mb-3">
                         <label for="formFile" class="form-label">Default file input example</label>
                         <input class="form-control" type="file" id="formFile" />
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-47')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-47" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="formFile" class="form-label"&gt;Default file input example&lt;/label&gt;
+                            &lt;input class="form-control" type="file" id="formFile" /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div class="mb-3">
                         <label for="formFileMultiple" class="form-label">Multiple files input example</label>
                         <input class="form-control" type="file" id="formFileMultiple" multiple />
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-48')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-48" style="display:none;">
+                          &lt;div class="mb-3"&gt;
+                            &lt;label for="formFileMultiple" class="form-label"&gt;Multiple files input example&lt;/label&gt;
+                            &lt;input class="form-control" type="file" id="formFileMultiple" multiple /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                       <div>
                         <label for="formFileDisabled" class="form-label">Disabled file input example</label>
                         <input class="form-control" type="file" id="formFileDisabled" disabled />
+                        <button type="button" class="btn-sm btn-icon btn-outline-primary"
+                          data-bs-toggle="tooltip"
+                          data-bs-offset="0,4"
+                          onclick="copyCode(this, 'form-code-49')"
+                          data-bs-placement="top"
+                          data-bs-html="true"
+                          title="Copy the code">
+                          <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="form-code-49" style="display:none;">
+                          &lt;div&gt;
+                            &lt;label for="formFileDisabled" class="form-label"&gt;Disabled file input example&lt;/label&gt;
+                            &lt;input class="form-control" type="file" id="formFileDisabled" disabled /&gt;
+                          &lt;/div&gt;
+                        </div>
                       </div>
                     </div>
                   </div>

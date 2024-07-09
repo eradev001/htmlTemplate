@@ -123,11 +123,7 @@
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="ui-footer.html" class="menu-link">
-                    <div data-i18n="Footer">Footer</div>
-                  </a>
-                </li>
+                
                 <li class="menu-item">
                   <a href="ui-list-groups.html" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
@@ -186,32 +182,8 @@
               </ul>
             </li>
 
-            <!-- Extended components -->
-            <li class="menu-item">
-              <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-copy"></i>
-                <div data-i18n="Extended UI">Extended UI</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
-                    <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="extended-ui-text-divider.html" class="menu-link">
-                    <div data-i18n="Text Divider">Text Divider</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
+            
 
-            <li class="menu-item">
-              <a href="icons-boxicons.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-crown"></i>
-                <div data-i18n="Boxicons">Boxicons</div>
-              </a>
-            </li>
 
             <!-- Forms & Tables -->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li>
@@ -365,8 +337,73 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'modal-code-1')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="modal-code-1" style="display:none;">
+                          &lt;div class="col-lg-4 col-md-6"&gt;
+                              &lt;small class="text-light fw-semibold"&gt;Default&lt;/small&gt;
+                              &lt;div class="mt-3"&gt;
+                                  &lt;!-- Button trigger modal --&gt;
+                                  &lt;button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#basicModal"
+                                  &gt;
+                                    Launch modal
+                                  &lt;/button&gt;
 
+                                  &lt;!-- Modal --&gt;
+                                  &lt;div class="modal fade" id="basicModal" tabindex="-1" aria-hidden="true"&gt;
+                                    &lt;div class="modal-dialog" role="document"&gt;
+                                      &lt;div class="modal-content"&gt;
+                                        &lt;div class="modal-header"&gt;
+                                          &lt;h5 class="modal-title" id="exampleModalLabel1"&gt;Modal title&lt;/h5&gt;
+                                          &lt;button
+                                            type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"
+                                          &gt;&lt;/button&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="modal-body"&gt;
+                                          &lt;div class="row"&gt;
+                                            &lt;div class="col mb-3"&gt;
+                                              &lt;label for="nameBasic" class="form-label"&gt;Name&lt;/label&gt;
+                                              &lt;input type="text" id="nameBasic" class="form-control" placeholder="Enter Name" /&gt;
+                                            &lt;/div&gt;
+                                          &lt;/div&gt;
+                                          &lt;div class="row g-2"&gt;
+                                            &lt;div class="col mb-0"&gt;
+                                              &lt;label for="emailBasic" class="form-label"&gt;Email&lt;/label&gt;
+                                              &lt;input type="text" id="emailBasic" class="form-control" placeholder="xxxx@xxx.xx" /&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class="col mb-0"&gt;
+                                              &lt;label for="dobBasic" class="form-label"&gt;DOB&lt;/label&gt;
+                                              &lt;input type="text" id="dobBasic" class="form-control" placeholder="DD / MM / YY" /&gt;
+                                            &lt;/div&gt;
+                                          &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="modal-footer"&gt;
+                                          &lt;button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"&gt;
+                                            Close
+                                          &lt;/button&gt;
+                                          &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                                        &lt;/div&gt;
+                                      &lt;/div&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                              &lt;/div&gt;
+                          &lt;/div&gt;
+                        </div>
+                    </div>                    
                     <!-- Vertically Centered Modal -->
                     <div class="col-lg-4 col-md-6">
                       <small class="text-light fw-semibold">Vertically centered</small>
@@ -897,6 +934,61 @@
                           Extra Large
                         </button>
                       </div>
+                      <button type="button" class="btn btn-icon btn-outline-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-offset="0,4"
+                                onclick="copyCode(this, 'modal-code-2')"
+                                data-bs-placement="top"
+                                data-bs-html="true"
+                                title="Copy the code">
+                                <span class="tf-icons bx bx-copy-alt"></span>
+                        </button>
+                        <div id="modal-code-2" style="display:none;">
+                          &lt;button
+                          type="button"
+                          class="btn btn-primary"
+                          data-bs-toggle="modal"
+                          data-bs-target="#smallModal"
+                        &gt;
+                          Small
+                        &lt;/button&gt;
+                          &lt;div class="modal fade" id="smallModal" tabindex="-1" aria-hidden="true"&gt;
+                            &lt;div class="modal-dialog modal-sm" role="document"&gt;
+                                &lt;div class="modal-content"&gt;
+                                    &lt;div class="modal-header"&gt;
+                                        &lt;h5 class="modal-title" id="exampleModalLabel2"&gt;Modal title&lt;/h5&gt;
+                                        &lt;button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"&gt;&lt;/button&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="modal-body"&gt;
+                                        &lt;div class="row"&gt;
+                                            &lt;div class="col mb-3"&gt;
+                                                &lt;label for="nameSmall" class="form-label"&gt;Name&lt;/label&gt;
+                                                &lt;input type="text" id="nameSmall" class="form-control" placeholder="Enter Name" /&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="row g-2"&gt;
+                                            &lt;div class="col mb-0"&gt;
+                                                &lt;label class="form-label" for="emailSmall"&gt;Email&lt;/label&gt;
+                                                &lt;input type="text" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx" /&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class="col mb-0"&gt;
+                                                &lt;label for="dobSmall" class="form-label"&gt;DOB&lt;/label&gt;
+                                                &lt;input id="dobSmall" type="text" class="form-control" placeholder="DD / MM / YY" /&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="modal-footer"&gt;
+                                        &lt;button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"&gt;
+                                            Close
+                                        &lt;/button&gt;
+                                        &lt;button type="button" class="btn btn-primary"&gt;
+                                            Save changes
+                                        &lt;/button&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </div>
                     </div>
 
                     <!-- Modal Scroll long content -->
