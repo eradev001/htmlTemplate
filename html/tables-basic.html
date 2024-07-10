@@ -204,25 +204,7 @@
                   </a>
                 </li>
               </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-detail"></i>
-                <div data-i18n="Form Layouts">Form Layouts</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="form-layouts-vertical.html" class="menu-link">
-                    <div data-i18n="Vertical Form">Vertical Form</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="form-layouts-horizontal.html" class="menu-link">
-                    <div data-i18n="Horizontal Form">Horizontal Form</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
+            
             <!-- Tables -->
             <li class="menu-item active">
               <a href="tables-basic.html" class="menu-link">
@@ -499,6 +481,241 @@
                       </tr>
                     </tbody>
                   </table>
+                </div>
+                <button type="button" class="btn btn-icon btn-outline-primary"
+                  data-bs-toggle="tooltip"
+                  data-bs-offset="0,4"
+                  onclick="copyCode(this, 'tbl-code-1')"
+                  data-bs-placement="top"
+                  data-bs-html="true"
+                  title="Copy the code">
+                  <span class="tf-icons bx bx-copy-alt"></span>
+                </button>
+                <div id="tbl-code-1" style="display:none;">
+                  &lt;div class="card"&gt;
+                    &lt;h5 class="card-header"&gt;Table Basic&lt;/h5&gt;
+                    &lt;div class="table-responsive text-nowrap"&gt;
+                      &lt;table class="table"&gt;
+                        &lt;thead&gt;
+                          &lt;tr&gt;
+                            &lt;th&gt;Project&lt;/th&gt;
+                            &lt;th&gt;Client&lt;/th&gt;
+                            &lt;th&gt;Users&lt;/th&gt;
+                            &lt;th&gt;Status&lt;/th&gt;
+                            &lt;th&gt;Actions&lt;/th&gt;
+                          &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody class="table-border-bottom-0"&gt;
+                          &lt;tr&gt;
+                            &lt;td&gt;&lt;i class="fab fa-angular fa-lg text-danger me-3"&gt;&lt;/i&gt; &lt;strong&gt;Angular Project&lt;/strong&gt;&lt;/td&gt;
+                            &lt;td&gt;Albert Cook&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center"&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Lilian Fuller"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Sophia Wilkerson"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Christina Parker"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;&lt;span class="badge bg-label-primary me-1"&gt;Active&lt;/span&gt;&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;div class="dropdown"&gt;
+                                &lt;button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"&gt;
+                                  &lt;i class="bx bx-dots-vertical-rounded"&gt;&lt;/i&gt;
+                                &lt;/button&gt;
+                                &lt;div class="dropdown-menu"&gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-edit-alt me-1"&gt;&lt;/i&gt; Edit&lt;/a
+                                  &gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-trash me-1"&gt;&lt;/i&gt; Delete&lt;/a
+                                  &gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;td&gt;&lt;i class="fab fa-react fa-lg text-info me-3"&gt;&lt;/i&gt; &lt;strong&gt;React Project&lt;/strong&gt;&lt;/td&gt;
+                            &lt;td&gt;Barry Hunter&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center"&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Lilian Fuller"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Sophia Wilkerson"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Christina Parker"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;&lt;span class="badge bg-label-success me-1"&gt;Completed&lt;/span&gt;&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;div class="dropdown"&gt;
+                                &lt;button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"&gt;
+                                  &lt;i class="bx bx-dots-vertical-rounded"&gt;&lt;/i&gt;
+                                &lt;/button&gt;
+                                &lt;div class="dropdown-menu"&gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-edit-alt me-2"&gt;&lt;/i&gt; Edit&lt;/a
+                                  &gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-trash me-2"&gt;&lt;/i&gt; Delete&lt;/a
+                                  &gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;td&gt;&lt;i class="fab fa-vuejs fa-lg text-success me-3"&gt;&lt;/i&gt; &lt;strong&gt;VueJs Project&lt;/strong&gt;&lt;/td&gt;
+                            &lt;td&gt;Trevor Baker&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center"&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Lilian Fuller"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Sophia Wilkerson"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Christina Parker"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;&lt;span class="badge bg-label-info me-1"&gt;Scheduled&lt;/span&gt;&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;div class="dropdown"&gt;
+                                &lt;button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"&gt;
+                                  &lt;i class="bx bx-dots-vertical-rounded"&gt;&lt;/i&gt;
+                                &lt;/button&gt;
+                                &lt;div class="dropdown-menu"&gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-edit-alt me-2"&gt;&lt;/i&gt; Edit&lt;/a
+                                  &gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-trash me-2"&gt;&lt;/i&gt; Delete&lt;/a
+                                  &gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/td&gt;
+                          &lt;/tr&gt;
+                          &lt;tr&gt;
+                            &lt;td&gt;
+                              &lt;i class="fab fa-bootstrap fa-lg text-primary me-3"&gt;&lt;/i&gt; &lt;strong&gt;Bootstrap Project&lt;/strong&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;Jerry Milton&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center"&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Lilian Fuller"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Sophia Wilkerson"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                                &lt;li
+                                  data-bs-toggle="tooltip"
+                                  data-popup="tooltip-custom"
+                                  data-bs-placement="top"
+                                  class="avatar avatar-xs pull-up"
+                                  title="Christina Parker"
+                                &gt;
+                                  &lt;img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" /&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;&lt;span class="badge bg-label-warning me-1"&gt;Pending&lt;/span&gt;&lt;/td&gt;
+                            &lt;td&gt;
+                              &lt;div class="dropdown"&gt;
+                                &lt;button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"&gt;
+                                  &lt;i class="bx bx-dots-vertical-rounded"&gt;&lt;/i&gt;
+                                &lt;/button&gt;
+                                &lt;div class="dropdown-menu"&gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-edit-alt me-2"&gt;&lt;/i&gt; Edit&lt;/a
+                                  &gt;
+                                  &lt;a class="dropdown-item" href="javascript:void(0);"&gt;
+                                    &lt;i class="bx bx-trash me-2"&gt;&lt;/i&gt; Delete&lt;/a
+                                  &gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                      &lt;/table&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
                 </div>
               </div>
               <!--/ Basic Bootstrap Table -->
